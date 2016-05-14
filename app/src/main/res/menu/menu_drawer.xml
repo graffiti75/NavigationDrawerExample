@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2015 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ic_menu_headlines"
+            android:icon="@mipmap/ic_headlines_on"
+            android:title="Manchetes" />
+        <item
+            android:id="@+id/ic_menu_trends"
+            android:icon="@mipmap/ic_trends_on"
+            android:title="Tendências" />
+        <item
+            android:id="@+id/ic_menu_interests"
+            android:icon="@mipmap/ic_interests_on"
+            android:title="Interesses" />
+        <item
+            android:id="@+id/ic_menu_notifications"
+            android:icon="@mipmap/ic_notifications_on"
+            android:title="Notificações" />
+        <item
+            android:id="@+id/ic_menu_settings"
+            android:icon="@mipmap/ic_settings"
+            android:title="Configurações" />
+        <item
+            android:id="@+id/ic_menu_logout"
+            android:icon="@mipmap/ic_logout"
+            android:title="Sair" />
+    </group>
+</menu>
